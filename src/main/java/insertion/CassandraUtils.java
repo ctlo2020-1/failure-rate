@@ -21,15 +21,15 @@ public class CassandraUtils {
         System.out.println("\n Insert Query - > " + ps2.getQuery());
         session.execute(ps2.bind("clun7@gmail.com", "qwerty", 250000));
                 session.execute("DROP KEYSPACE IF EXISTS employee_keyspace"); 
-                        PreparedStatement ps2 = session.prepare(
+        PreparedStatement p32 = session.prepare(
                 QueryBuilder
                 .insertInto(tableName)
                 .value("email", QueryBuilder.bindMarker())
                 .value("name", QueryBuilder.bindMarker())
                 .value("salary", QueryBuilder.bindMarker())
                 .build());
-        System.out.println("\n Insert Query - > " + ps2.getQuery());
-        session.execute(ps2.bind("clun7@gmail.com", "qwerty", 250000));
+        System.out.println("\n Insert Query - > " + ps3.getQuery());
+        session.execute(ps3.bind("clun7@gmail.com", "qwerty", 250000));
                 session.execute("DROP KEYSPACE IF EXISTS employee_keyspace"); 
         session.execute("DROP KEYSPACE IF EXISTS employee_keyspace");
     }
