@@ -21,7 +21,7 @@ public class CassandraUtils {
         System.out.println("\n Insert Query - > " + ps2.getQuery());
         session.execute(ps2.bind("clun7@gmail.com", "qwerty", 250000));
                 session.execute("DROP KEYSPACE IF EXISTS employee_keyspace"); 
-        PreparedStatement p32 = session.prepare(
+        PreparedStatement ps3 = session.prepare(
                 QueryBuilder
                 .insertInto(tableName)
                 .value("email", QueryBuilder.bindMarker())
