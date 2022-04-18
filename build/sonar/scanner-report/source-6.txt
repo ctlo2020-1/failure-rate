@@ -20,8 +20,6 @@ public class CassandraUtils {
                 .build());
         System.out.println("\n Insert Query - > " + ps2.getQuery());
         session.execute(ps2.bind("clun7@gmail.com", "qwerty", 250000));
-                session.execute("DROP KEYSPACE IF EXISTS employee_keyspace"); 
-        session.execute("DROP KEYSPACE IF EXISTS employee_keyspace");
     }
 
     public static void batchInsert(CqlSession session, String tableName) {

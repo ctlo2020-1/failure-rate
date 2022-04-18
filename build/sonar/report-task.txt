@@ -1,0 +1,7 @@
+organization=ctlo2020-1-sample
+projectKey=ctlo2020-1_failure-rate
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.28356
+dashboardUrl=https://sonarcloud.io/dashboard?id=ctlo2020-1_failure-rate
+ceTaskId=AYA8viupdRNuhfuxt06l
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AYA8viupdRNuhfuxt06l

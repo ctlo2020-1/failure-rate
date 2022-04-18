@@ -1,0 +1,40 @@
+
+zutils.ExampleUtils#createKeyspaceSimpleStrategy(Ljava/lang/String;I)Lcom/datastax/oss/driver/api/core/cql/SimpleStatement;]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java" (>"1*Û
+1]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java (Æ
+´
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java (9I
+%0Ccom.datastax.oss.driver.api.querybuilder.schema.CreateKeyspaceStart"ûcom.datastax.oss.driver.api.querybuilder.SchemaBuilder#createKeyspace(Ljava/lang/String;)Lcom/datastax/oss/driver/api/querybuilder/schema/CreateKeyspaceStart;*:"8
+6com.datastax.oss.driver.api.querybuilder.SchemaBuilder*"
+ 
+keyspaceNamejava.lang.String¢ü
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java (I
+%1Ccom.datastax.oss.driver.api.querybuilder.schema.CreateKeyspaceStart"ñcom.datastax.oss.driver.api.querybuilder.schema.CreateKeyspaceStart#ifNotExists()Lcom/datastax/oss/driver/api/querybuilder/schema/CreateKeyspaceStart;*K
+I
+%0Ccom.datastax.oss.driver.api.querybuilder.schema.CreateKeyspaceStart2ifNotExists()àÖ
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java  (6D
+%2>com.datastax.oss.driver.api.querybuilder.schema.CreateKeyspace"rcom.datastax.oss.driver.api.querybuilder.schema.KeyspaceReplicationOptions#withSimpleStrategy(I)Ljava/lang/Object;*K
+I
+%1Ccom.datastax.oss.driver.api.querybuilder.schema.CreateKeyspaceStart*
+""2withSimpleStrategy(I)§°
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java !((D
+%3>com.datastax.oss.driver.api.querybuilder.schema.CreateKeyspace"ïcom.datastax.oss.driver.api.querybuilder.schema.KeyspaceOptions#withDurableWrites(Z)Lcom/datastax/oss/driver/api/querybuilder/schema/KeyspaceOptions;*F
+D
+%2>com.datastax.oss.driver.api.querybuilder.schema.CreateKeyspace*22withDurableWrites(Z)Ê„
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java "(:
+%44com.datastax.oss.driver.api.core.cql.SimpleStatement"ucom.datastax.oss.driver.api.querybuilder.BuildableQuery#build()Lcom/datastax/oss/driver/api/core/cql/SimpleStatement;*F
+D
+%3>com.datastax.oss.driver.api.querybuilder.schema.CreateKeyspace2build()"ù
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java "(<
+:
+%44com.datastax.oss.driver.api.core.cql.SimpleStatement: 
+keyspaceNamejava.lang.String:
+""B"
+utils.ExampleUtils

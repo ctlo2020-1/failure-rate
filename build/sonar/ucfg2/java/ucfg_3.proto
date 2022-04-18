@@ -1,0 +1,79 @@
+
+hutils.ExampleUtils#createTableEmployeeByNameStmt()Lcom/datastax/oss/driver/api/core/cql/SimpleStatement;]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java%" %(?"1*Å#
+1]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& &(ó
+î
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& &(<F
+%0@com.datastax.oss.driver.api.querybuilder.schema.CreateTableStart"òcom.datastax.oss.driver.api.querybuilder.SchemaBuilder#createTable(Ljava/lang/String;)Lcom/datastax/oss/driver/api/querybuilder/schema/CreateTableStart;*:"8
+6com.datastax.oss.driver.api.querybuilder.SchemaBuilder*
+employee_by_nameñì
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& '(F
+%1@com.datastax.oss.driver.api.querybuilder.schema.CreateTableStart"êcom.datastax.oss.driver.api.querybuilder.schema.CreateTableStart#ifNotExists()Lcom/datastax/oss/driver/api/querybuilder/schema/CreateTableStart;*H
+F
+%0@com.datastax.oss.driver.api.querybuilder.schema.CreateTableStart2ifNotExists()¶
+£
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java(* ((84
+%2.com.datastax.oss.driver.api.core.type.DataType"__id*
+""ﬂ‹
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& ((9A
+%3;com.datastax.oss.driver.api.querybuilder.schema.CreateTable"’com.datastax.oss.driver.api.querybuilder.schema.OngoingPartitionKey#withPartitionKey(Ljava/lang/String;Lcom/datastax/oss/driver/api/core/type/DataType;)Lcom/datastax/oss/driver/api/querybuilder/schema/CreateTable;*H
+F
+%1@com.datastax.oss.driver.api.querybuilder.schema.CreateTableStart*
+name*6
+4
+%2.com.datastax.oss.driver.api.core.type.DataType2TwithPartitionKey(Ljava/lang/String;Lcom/datastax/oss/driver/api/core/type/DataType;)¶
+£
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java)$ )(24
+%4.com.datastax.oss.driver.api.core.type.DataType"__id*
+""∆√
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& )(3A
+%5;com.datastax.oss.driver.api.querybuilder.schema.CreateTable"«com.datastax.oss.driver.api.querybuilder.schema.CreateTable#withColumn(Ljava/lang/String;Lcom/datastax/oss/driver/api/core/type/DataType;)Lcom/datastax/oss/driver/api/querybuilder/schema/CreateTable;*C
+A
+%3;com.datastax.oss.driver.api.querybuilder.schema.CreateTable*
+name*6
+4
+%4.com.datastax.oss.driver.api.core.type.DataType2NwithColumn(Ljava/lang/String;Lcom/datastax/oss/driver/api/core/type/DataType;)¶
+£
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java*% *(34
+%6.com.datastax.oss.driver.api.core.type.DataType"__id*
+""«ƒ
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& *(4A
+%7;com.datastax.oss.driver.api.querybuilder.schema.CreateTable"«com.datastax.oss.driver.api.querybuilder.schema.CreateTable#withColumn(Ljava/lang/String;Lcom/datastax/oss/driver/api/core/type/DataType;)Lcom/datastax/oss/driver/api/querybuilder/schema/CreateTable;*C
+A
+%5;com.datastax.oss.driver.api.querybuilder.schema.CreateTable*	
+email*6
+4
+%6.com.datastax.oss.driver.api.core.type.DataType2NwithColumn(Ljava/lang/String;Lcom/datastax/oss/driver/api/core/type/DataType;)¶
+£
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java+& +(34
+%8.com.datastax.oss.driver.api.core.type.DataType"__id*
+""»≈
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& +(4A
+%9;com.datastax.oss.driver.api.querybuilder.schema.CreateTable"«com.datastax.oss.driver.api.querybuilder.schema.CreateTable#withColumn(Ljava/lang/String;Lcom/datastax/oss/driver/api/core/type/DataType;)Lcom/datastax/oss/driver/api/querybuilder/schema/CreateTable;*C
+A
+%7;com.datastax.oss.driver.api.querybuilder.schema.CreateTable*
+
+salary*6
+4
+%8.com.datastax.oss.driver.api.core.type.DataType2NwithColumn(Ljava/lang/String;Lcom/datastax/oss/driver/api/core/type/DataType;)‰·
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& ,(;
+%104com.datastax.oss.driver.api.core.cql.SimpleStatement"ucom.datastax.oss.driver.api.querybuilder.BuildableQuery#build()Lcom/datastax/oss/driver/api/core/cql/SimpleStatement;*C
+A
+%9;com.datastax.oss.driver.api.querybuilder.schema.CreateTable2build()"û
+]
+S/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/utils/ExampleUtils.java& ,(=
+;
+%104com.datastax.oss.driver.api.core.cql.SimpleStatementB"
+utils.ExampleUtils

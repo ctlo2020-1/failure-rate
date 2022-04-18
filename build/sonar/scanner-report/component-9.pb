@@ -1,0 +1,1 @@
+	 (2javaX6hr%src/test/java/CassandraSetupTest.java

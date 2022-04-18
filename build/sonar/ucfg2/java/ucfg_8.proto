@@ -1,0 +1,17 @@
+
+}insertion.CassandraUtils#list2(Lcom/datastax/oss/driver/api/core/CqlSession;)Lcom/datastax/oss/driver/api/core/cql/ResultSet;c
+Y/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/insertion/CassandraUtils.java4 4(!"1*∏
+1c
+Y/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/insertion/CassandraUtils.java5 5(≠™
+c
+Y/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/insertion/CassandraUtils.java5 5(S4
+%0.com.datastax.oss.driver.api.core.cql.ResultSet"com.datastax.oss.driver.api.core.cql.SyncCqlSession#execute(Ljava/lang/String;)Lcom/datastax/oss/driver/api/core/cql/ResultSet;*8
+6
+session+com.datastax.oss.driver.api.core.CqlSession*53
+1select * from employee_keyspace.employee_by_email2execute(Ljava/lang/String;)"ù
+c
+Y/Users/shrikesh/Documents/GitHub/failure-rate/src/main/java/insertion/CassandraUtils.java5 5(T6
+4
+%0.com.datastax.oss.driver.api.core.cql.ResultSet:6
+session+com.datastax.oss.driver.api.core.CqlSessionB"
+insertion.CassandraUtils
