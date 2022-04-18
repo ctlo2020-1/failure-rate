@@ -1,6 +1,16 @@
 plugins {
     id 'java'
+    id "org.sonarqube" version "2.7"
 }
+
+sonarqube {
+  properties {
+    property "sonar.projectKey", "ctlo2020-1_failure-rate"
+    property "sonar.organization", "ctlo2020-1-sample"
+    property "sonar.host.url", "https://sonarcloud.io"
+  }
+}
+
 
 group 'org.example'
 version '1.0-SNAPSHOT'
